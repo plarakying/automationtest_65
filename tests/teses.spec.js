@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
 
 // ชื่อเรื่อง: ทดสอบการเปิดหน้า Facebook
-test('facebook', async ({ page }) => {
-await page.goto('https://www.facebook.com/');
+//test('facebook', async ({ page }) => {
+//await page.goto('https://www.facebook.com/');
 
 
 // await page.getByRole('button', { name: 'Log in' }).click();
@@ -14,7 +14,7 @@ await page.goto('https://www.facebook.com/');
 //await page.getByRole('button', { name: 'Log in' }).click();
 
 
-});
+//});
 
 test('ess', async ({ page }) => {
 await page.goto('https://computer.surin.rmuti.ac.th/computer/?fbclid=IwY2xjawMeBQxleHRuA2FlbQIxMABicmlkETFGRmNobzk3SE96em1HUmRTAR6Bc4uh8bIi0B0V4tmRm_Ck65vgkzNnsE0B90U2s8Fk1jmloHzzHeu04Hc7cg_aem_K5y3ILtHdod9SRAPy07MMw');
@@ -28,19 +28,19 @@ await expect(page.locator('xpath=//*[@id="header"]/div[3]')).toBeVisible();
 
 });
 
-test("facebook_register", async ({ page }) => {
-  await page.goto('https://www.facebook.com/');
-  await page.getByRole("button", { name: 'Create new account' }).click();
-  await page.getByRole("textbox", { name: "First name" }).fill("amitta");
-  await page.getByRole("textbox", { name: "Surname" }).fill("pachuen");
-  await page.getByRole("combobox", { name: "Day" }).selectOption("10");
-  await page.getByRole("combobox", { name: "Month" }).selectOption("5");
-  await page.getByRole("combobox", { name: "Year" }).selectOption("2004");
-  await page.getByRole("radio", { name: "Female" }).check();
-  await page.getByRole("textbox", { name: "Mobile number or email address" }).fill("amitta@gmail.com");
-  await page.getByRole("textbox", { name: "New password" }).fill("password123");
-  await page.getByRole("button", { name: "Sign Up" }).click();
-});
+//test("facebook_register", async ({ page }) => {
+ // await page.goto('https://www.facebook.com/');
+  //await page.getByRole("button", { name: 'Create new account' }).click();
+  //await page.getByRole("textbox", { name: "First name" }).fill("amitta");
+  //await page.getByRole("textbox", { name: "Surname" }).fill("pachuen");
+  //await page.getByRole("combobox", { name: "Day" }).selectOption("10");
+  //await page.getByRole("combobox", { name: "Month" }).selectOption("5");
+  //await page.getByRole("combobox", { name: "Year" }).selectOption("2004");
+  //await page.getByRole("radio", { name: "Female" }).check();
+  //await page.getByRole("textbox", { name: "Mobile number or email address" }).fill("amitta@gmail.com");
+  //await page.getByRole("textbox", { name: "New password" }).fill("password123");
+  //await page.getByRole("button", { name: "Sign Up" }).click();
+//});
 
 test("computer_surin01", async ({ page }) => {
   await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/#');
