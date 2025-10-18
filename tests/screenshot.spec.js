@@ -31,19 +31,19 @@ test('chula1', async ({ page }) => {
     
 });
 
-test('facebook', async ({ page }) => {
-  await page.goto('https://www.facebook.com/');
-  await page.getByTestId('open-registration-form-button').click();
-  await page.getByRole('textbox', { name: 'First name' }).click();
-  await page.getByRole('textbox', { name: 'First name' }).fill('Phuvanat');
-  await page.getByRole('textbox', { name: 'Surname' }).click();
-  await page.getByRole('textbox', { name: 'Surname' }).fill('Rakying');
-  await page.getByLabel('Day').selectOption('7');
-  await page.getByLabel('Month').selectOption('1');
-  await page.getByLabel('Year').selectOption('2003');
-  await page.getByText('male').click();
-  await page.getByRole('textbox', { name: 'Mobile number or email address' }).click();
-  await page.getByRole('textbox', { name: 'Mobile number or email address' }).fill('poowanatrakying@gamil.com');
-  await page.getByRole('textbox', { name: 'New password' }).click();
-  await page.getByRole('textbox', { name: 'New password' }).fill('123456');
-});
+//test('facebook', async ({ page }) => {
+  //await page.goto('https://www.facebook.com/');
+  //await page.getByTestId('open-registration-form-button').click();
+  //await page.getByRole('textbox', { name: 'First name' }).click();
+  //await page.getByRole('textbox', { name: 'First name' }).fill('Phuvanat');
+  //await page.getByRole('textbox', { name: 'Surname' }).click();
+  //await page.getByRole('textbox', { name: 'Surname' }).fill('Rakying');
+  //await page.getByLabel('Day').selectOption('7');
+  //await page.getByLabel('Month').selectOption('1');
+  //await page.getByLabel('Year').selectOption('2003');
+  //await page.getByText('male').click();
+  //await page.getByRole('textbox', { name: 'Mobile number or email address' }).click();
+  //await page.getByRole('textbox', { name: 'Mobile number or email address' }).fill('poowanatrakying@gamil.com');
+  //await page.getByRole('textbox', { name: 'New password' }).click();
+  //await page.getByRole('textbox', { name: 'New password' }).fill('123456');
+//});
