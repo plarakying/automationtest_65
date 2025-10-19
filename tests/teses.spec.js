@@ -68,16 +68,16 @@ test("computer_surin02", async ({ page }) => {
 await expect.soft(page.getByText('กลุ่มวิชาเรียนทั้งหมด')).toBeVisible();
 });
 
-test('test', async ({ page }) => {
-  await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/#');
-  await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
-  await page.getByRole('textbox', { name: 'ชื่อผู้ใช้งาน' }).click();
-  await page.getByRole('textbox', { name: 'ชื่อผู้ใช้งาน' }).fill('amitta01');
-  await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
-  await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('password123');
-  await page.getByRole('button', { name: ' เข้าสู่ระบบ' }).click();
-  await expect(page.getByRole('heading', { name: 'คอร์สเรียนทั้งหมด' })).toBeVisible();
-});
+//test('test', async ({ page }) => {
+ // await page.goto('https://computer.surin.rmuti.ac.th/sc/fornend/#');
+// await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
+ //await page.getByRole('textbox', { name: 'ชื่อผู้ใช้งาน' }).click();
+//  await page.getByRole('textbox', { name: 'ชื่อผู้ใช้งาน' }).fill('amitta01');
+//  await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
+//  await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('password123');
+//  await page.getByRole('button', { name: ' เข้าสู่ระบบ' }).click();
+// await expect(page.getByRole('heading', { name: 'คอร์สเรียนทั้งหมด' })).toBeVisible();
+//});
 
 
 

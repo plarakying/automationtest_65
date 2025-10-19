@@ -1,0 +1,165 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]: 
+      - generic [ref=e7]:
+        - heading "จัดการกลุ่มเรียน" [level=1] [ref=e8]
+        - generic [ref=e9]: เพิ่ม แก้ไข หรือลบกลุ่มเรียน
+    - link " หน้าหลัก" [ref=e11] [cursor=pointer]:
+      - /url: admin_dashboard.php
+      - generic [ref=e12] [cursor=pointer]: 
+      - text: หน้าหลัก
+  - generic [ref=e14]:
+    - combobox [ref=e15]:
+      - option "— เลือกหลักสูตร —"
+      - option "หลักสูตรครุศาสตร์อุตสาหกรรมบัณฑิต"
+      - option "หลักสูตรประกาศนียบัตรวิชาชีพชั้นสูง" [selected]
+      - option "หลักสูตรวิทยาศาสตรบัณฑิต"
+    - combobox [ref=e16]:
+      - option "— เลือกกลุ่ม —" [selected]
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+      - option "วคต673A."
+    - button "+ เพิ่มกลุ่มเรียน" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18] [cursor=pointer]: +
+      - text: เพิ่มกลุ่มเรียน
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - heading " กลุ่มเรียนในหลักสูตร" [level=3] [ref=e21]:
+        - generic [ref=e22]: 
+        - text: กลุ่มเรียนในหลักสูตร
+      - table [ref=e25]:
+        - rowgroup [ref=e26]:
+          - row "กลุ่ม อาจารย์ นศ. รับสูงสุด จัดการ" [ref=e27]:
+            - cell "กลุ่ม" [ref=e28]
+            - cell "อาจารย์" [ref=e29]
+            - cell "นศ." [ref=e30]
+            - cell "รับสูงสุด" [ref=e31]
+            - cell "จัดการ" [ref=e32]
+        - rowgroup [ref=e33]:
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e34]:
+            - cell "วคต673A." [ref=e35]
+            - cell "กรรณิการ์" [ref=e36]
+            - cell "0" [ref=e37]
+            - cell "40" [ref=e38]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e39]:
+              - button "รายชื่อ" [ref=e40] [cursor=pointer]
+              - button "แก้ไข" [ref=e41] [cursor=pointer]
+              - button "ลบ" [ref=e42] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e43]:
+            - cell "วคต673A." [ref=e44]
+            - cell "กรรณิการ์" [ref=e45]
+            - cell "0" [ref=e46]
+            - cell "40" [ref=e47]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e48]:
+              - button "รายชื่อ" [ref=e49] [cursor=pointer]
+              - button "แก้ไข" [ref=e50] [cursor=pointer]
+              - button "ลบ" [ref=e51] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e52]:
+            - cell "วคต673A." [ref=e53]
+            - cell "กรรณิการ์" [ref=e54]
+            - cell "0" [ref=e55]
+            - cell "40" [ref=e56]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e57]:
+              - button "รายชื่อ" [ref=e58] [cursor=pointer]
+              - button "แก้ไข" [ref=e59] [cursor=pointer]
+              - button "ลบ" [ref=e60] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e61]:
+            - cell "วคต673A." [ref=e62]
+            - cell "กรรณิการ์" [ref=e63]
+            - cell "0" [ref=e64]
+            - cell "40" [ref=e65]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e66]:
+              - button "รายชื่อ" [ref=e67] [cursor=pointer]
+              - button "แก้ไข" [ref=e68] [cursor=pointer]
+              - button "ลบ" [ref=e69] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e70]:
+            - cell "วคต673A." [ref=e71]
+            - cell "กรรณิการ์" [ref=e72]
+            - cell "0" [ref=e73]
+            - cell "40" [ref=e74]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e75]:
+              - button "รายชื่อ" [ref=e76] [cursor=pointer]
+              - button "แก้ไข" [ref=e77] [cursor=pointer]
+              - button "ลบ" [ref=e78] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e79]:
+            - cell "วคต673A." [ref=e80]
+            - cell "กรรณิการ์" [ref=e81]
+            - cell "0" [ref=e82]
+            - cell "40" [ref=e83]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e84]:
+              - button "รายชื่อ" [ref=e85] [cursor=pointer]
+              - button "แก้ไข" [ref=e86] [cursor=pointer]
+              - button "ลบ" [ref=e87] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e88]:
+            - cell "วคต673A." [ref=e89]
+            - cell "กรรณิการ์" [ref=e90]
+            - cell "0" [ref=e91]
+            - cell "40" [ref=e92]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e93]:
+              - button "รายชื่อ" [ref=e94] [cursor=pointer]
+              - button "แก้ไข" [ref=e95] [cursor=pointer]
+              - button "ลบ" [ref=e96] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e97]:
+            - cell "วคต673A." [ref=e98]
+            - cell "กรรณิการ์" [ref=e99]
+            - cell "0" [ref=e100]
+            - cell "40" [ref=e101]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e102]:
+              - button "รายชื่อ" [ref=e103] [cursor=pointer]
+              - button "แก้ไข" [ref=e104] [cursor=pointer]
+              - button "ลบ" [ref=e105] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e106]:
+            - cell "วคต673A." [ref=e107]
+            - cell "กรรณิการ์" [ref=e108]
+            - cell "0" [ref=e109]
+            - cell "40" [ref=e110]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e111]:
+              - button "รายชื่อ" [ref=e112] [cursor=pointer]
+              - button "แก้ไข" [ref=e113] [cursor=pointer]
+              - button "ลบ" [ref=e114] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e115]:
+            - cell "วคต673A." [ref=e116]
+            - cell "กรรณิการ์" [ref=e117]
+            - cell "0" [ref=e118]
+            - cell "40" [ref=e119]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e120]:
+              - button "รายชื่อ" [ref=e121] [cursor=pointer]
+              - button "แก้ไข" [ref=e122] [cursor=pointer]
+              - button "ลบ" [ref=e123] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e124]:
+            - cell "วคต673A." [ref=e125]
+            - cell "กรรณิการ์" [ref=e126]
+            - cell "0" [ref=e127]
+            - cell "40" [ref=e128]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e129]:
+              - button "รายชื่อ" [ref=e130] [cursor=pointer]
+              - button "แก้ไข" [ref=e131] [cursor=pointer]
+              - button "ลบ" [ref=e132] [cursor=pointer]
+          - row "วคต673A. กรรณิการ์ 0 40 รายชื่อ แก้ไข ลบ" [ref=e133]:
+            - cell "วคต673A." [ref=e134]
+            - cell "กรรณิการ์" [ref=e135]
+            - cell "0" [ref=e136]
+            - cell "40" [ref=e137]
+            - cell "รายชื่อ แก้ไข ลบ" [ref=e138]:
+              - button "รายชื่อ" [ref=e139] [cursor=pointer]
+              - button "แก้ไข" [ref=e140] [cursor=pointer]
+              - button "ลบ" [ref=e141] [cursor=pointer]
+    - generic [ref=e142]:
+      - heading " รายชื่อนักศึกษาในกลุ่ม" [level=3] [ref=e143]:
+        - generic [ref=e144]: 
+        - text: รายชื่อนักศึกษาในกลุ่ม
+      - generic [ref=e146]: เลือกกลุ่มจากดรอปดาวน์ หรือกด “รายชื่อ” จากตาราง
+```

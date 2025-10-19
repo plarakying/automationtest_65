@@ -587,20 +587,18 @@ test('admin_question_02', async ({ page }) => {
 test('admin_question_03', async ({ page }) => {
   await page.goto('https://computer.surin.rmuti.ac.th/aprdt/DT/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B9%83%E0%B8%88/');
   await page.getByRole('link', { name: 'เข้าสู่ระบบ' }).click();
-  await page.getByText('ผู้ดูแลระบบ', { exact: true }).click();
+  await page.locator('.user-type-card.admin > .user-type-icon').click();
   await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).click();
   await page.getByRole('textbox', { name: 'ชื่อผู้ใช้' }).fill('kannika.se');
   await page.getByRole('textbox', { name: 'รหัสผ่าน' }).click();
   await page.getByRole('textbox', { name: 'รหัสผ่าน' }).fill('123456789');
   await page.getByRole('button', { name: 'เข้าสู่ระบบ' }).click();
   await page.getByRole('link', { name: ' จัดการคำถาม' }).click();
-  await page.getByRole('row', { name: 'คุณสนใจระบบเครือข่ายคอมพิวเตอร์ไหม การจัดการข้อมูลและปัญญาประดิษฐ์ (Data' }).getByRole('link').click();
+  await page.getByRole('row', { name: '11. คุณสนใจระบบเครือข่ายคอมพิวเตอร์ไหม การจัดการข้อมูลและปัญญาประดิษฐ์ (Data' }).getByRole('link').click();
   await page.getByRole('textbox').click();
   await page.getByRole('textbox').fill('คุณสนใจระบบเครือข่ายคอมพิวเตอร์และกราฟิกไหม');
-  await page.locator('select[name="group_id_for_question"]').selectOption('1');
+  await page.locator('select[name="group_id_for_question"]').selectOption('3');
   await page.getByRole('button', { name: '💾 บันทึกการแก้ไข' }).click();
-  await page.screenshot({ path: "test-results/admin_question_03_input.png" });
-  await page.screenshot({ path: "test-results/admin_question_03_output.png"});
 });
 
 test('admin_question_04', async ({ page }) => {

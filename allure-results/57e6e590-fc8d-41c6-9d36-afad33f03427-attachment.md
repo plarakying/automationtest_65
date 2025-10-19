@@ -1,0 +1,409 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "logo" [ref=e5]
+        - generic [ref=e6]:
+          - text: คณะเกษตรศาสตร์และเทคโนโลยี
+          - text: มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสุรินทร์
+      - generic [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link " หน้าหลัก" [ref=e10]:
+              - /url: home.php
+              - generic [ref=e11]: 
+              - text: หน้าหลัก
+          - listitem [ref=e12]:
+            - link " กลุ่มวิชา" [ref=e13]:
+              - /url: subject_groups.php
+              - generic [ref=e14]: 
+              - text: กลุ่มวิชา
+          - listitem [ref=e15]:
+            - link " รายวิชา" [ref=e16]:
+              - /url: course.php
+              - generic [ref=e17]: 
+              - text: รายวิชา
+          - listitem [ref=e18]:
+            - link " ติดต่อเรา" [ref=e19]:
+              - /url: contact.php
+              - generic [ref=e20]: 
+              - text: ติดต่อเรา
+          - listitem [ref=e21]:
+            - link " ตะกร้า 0" [ref=e22]:
+              - /url: cart.php
+              - generic [ref=e23]: 
+              - text: ตะกร้า
+              - generic [ref=e24]: "0"
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - button " amitta pachuen" [ref=e27] [cursor=pointer]:
+              - generic [ref=e28] [cursor=pointer]: 
+              - generic [ref=e29] [cursor=pointer]: amitta pachuen
+            - text:   
+  - generic [ref=e30]:
+    - heading "กลุ่มวิชาเรียนทั้งหมด" [level=2] [ref=e31]
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - text: "🛒 ตะกร้า:"
+        - generic [ref=e34]: "0"
+        - text: รายการ
+      - button " วิธีการชำระเงิน" [ref=e36] [cursor=pointer]:
+        - generic [ref=e37] [cursor=pointer]: 
+        - text: วิธีการชำระเงิน
+    - generic [ref=e38]:
+      - generic [ref=e41]:
+        - heading " การฝึกปฏิบัติการทางวิทยาการข้อมูลเชิงเกษตรแม่นยำ" [level=5] [ref=e42]:
+          - generic [ref=e43]: 
+          - text: การฝึกปฏิบัติการทางวิทยาการข้อมูลเชิงเกษตรแม่นยำ
+        - paragraph [ref=e44]: กระบวนการเรียนรู้ของข้อมูลเพื่อการวิเคราะห์ข้อมูลเบื้องต้น การออกแบบฐานข้อมูลเชิงสัมพันธ์ หลักการของหัวข้อขั้นสูงทางระบบฐานข้อมูลสมัยใหม่ ฐานข้อมูลเชิงออบเจกต์ ฐานข้อมูลแบบกราฟ และการโปรแกรมฝังตัวบนฐานข้อมูล การจัดทำระบบฐานข้อมูลขั้นสูงวิธีการสำรวจข้อมูลเพื่อนำไปวิเคราะห์ข้อมูลระบบสนับสนุนการตัดสินใจของวิทยาการข้อมูลเชิงเกษตรแม่นยำ หลักการเชิงธุรกิจเพื่อสร้างชุดทดลองทางปัญญาประดิษฐ์ การประยุกต์ใช้เครื่องมือสำหรับงานเกษตรอัจฉริยะและพัฒนาชุดอุปกรณ์ IOT การวิเคราะห์ข้อมูลและควบคุมอุปกรณ์ IOT ผ่านเครือข่ายอินเทอร์เน็ต การประยุกต์ใช้งานอุปกรณ์ IOT กับงานสมาร์ทฟาร์ม
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - generic [ref=e47]: 
+            - strong [ref=e48]: "หน่วยกิต:"
+            - text: "12"
+          - listitem [ref=e49]:
+            - generic [ref=e50]: 
+            - strong [ref=e51]: "เริ่ม:"
+            - text: 18/09/2025
+          - listitem [ref=e52]:
+            - generic [ref=e53]: 
+            - strong [ref=e54]: "สิ้นสุด:"
+            - text: 20/09/2025
+        - paragraph [ref=e55]:
+          - generic [ref=e56]: 
+          - text: 4,000.00 บาท
+        - generic [ref=e57]:
+          - link " รายละเอียด" [ref=e58] [cursor=pointer]:
+            - /url: module_detail.php?id=31
+            - generic [ref=e59] [cursor=pointer]: 
+            - text: รายละเอียด
+          - link " เพิ่มกลุ่มวิชา" [ref=e60] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e61] [cursor=pointer]: 
+            - text: เพิ่มกลุ่มวิชา
+      - generic [ref=e64]:
+        - heading " การพัฒนาระบบด้วยเทคโนโลยีสมัยใหม่" [level=5] [ref=e65]:
+          - generic [ref=e66]: 
+          - text: การพัฒนาระบบด้วยเทคโนโลยีสมัยใหม่
+        - paragraph [ref=e67]: แนวคิดการเขียนโปรแกรม การเขียนโปรแกรมคอมพิวเตอร์เชิงกระบวนคำสั่ง โครงสร้างของข้อมูลโครงสร้างควบคุม ขั้นตอนวิธีแบบเรียกซ้ำ การสร้างโปรแกรมย่อย การประยุกต์การเขียนโปรแกรมเชิงวัตถุเชื่อมต่อกับฐานข้อมูลสำหรับการวิเคราะห์ข้อมูล วงจรการพัฒนาระบบสารสนเทศ ขั้นตอนการพัฒนาระบบสาระสนเทศหลักการวิเคราะห์และออกแบบระบบแบบดั้งเดิมและแบบเชิงวัตถุ วิเคราะห์และออกแบบส่วนสร้างประสบการณ์ของผู้ใช้งานอย่างทันสมัยพัฒนาเว็บแอพพลิเคชั่นด้วยโครงสร้างและชุดคำสั่งของภาษาสคริปต์ ภาษาสมัยใหม่สำหรับการพัฒนาเว็บเพื่อวิเคราะห์ข้อมูล
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - generic [ref=e70]: 
+            - strong [ref=e71]: "หน่วยกิต:"
+            - text: "9"
+          - listitem [ref=e72]:
+            - generic [ref=e73]: 
+            - strong [ref=e74]: "เริ่ม:"
+            - text: 11/09/2025
+          - listitem [ref=e75]:
+            - generic [ref=e76]: 
+            - strong [ref=e77]: "สิ้นสุด:"
+            - text: 15/09/2025
+        - paragraph [ref=e78]:
+          - generic [ref=e79]: 
+          - text: 4,000.00 บาท
+        - generic [ref=e80]:
+          - link " รายละเอียด" [ref=e81] [cursor=pointer]:
+            - /url: module_detail.php?id=30
+            - generic [ref=e82] [cursor=pointer]: 
+            - text: รายละเอียด
+          - link " เพิ่มกลุ่มวิชา" [ref=e83] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e84] [cursor=pointer]: 
+            - text: เพิ่มกลุ่มวิชา
+      - generic [ref=e87]:
+        - heading " การประยุกต์ปัญญาประดิษฐ์และเทคโนโลยีอัจฉริยะ" [level=5] [ref=e88]:
+          - generic [ref=e89]: 
+          - text: การประยุกต์ปัญญาประดิษฐ์และเทคโนโลยีอัจฉริยะ
+        - paragraph [ref=e90]: ระเบียบวิธีเชิงตัวเลขและการพัฒนาขั้นตอนวิธีทางคอมพิวเตอร์ วิธีการเขียนโปรแกรมแบบโครงสร้าง พื้นฐานของซอฟต์แวร์ระบบและซอฟต์แวร์ประยุกต์ องค์ประกอบและสถาปัตยกรรมของฐานข้อมูล การออกแบบฐานข้อมูลในระดับแนวคิดและระดับกายภาพ การทำข้อมูลผ่านกระบวนการนอร์มอลไลเซชัน ภาษาที่ใช้ในฐานข้อมูลปัญญาประดิษฐ์เบื้องต้น การแทนความรู้ การค้นหาปริภูมิสถานะ ภาพรวมของการเรียนรู้ของเครื่อง การวางแผนการตัดสินใจ ตรรกศาสตร์คลุมเครือ ขั้นตอนวิธีพันธุกรรม โครงข่ายประสาทเทียมเบื้องต้น การเขียนโปรแกรมปัญญาประดิษฐ์ การเตรียมข้อมูลก่อนประมวลผล การวิเคราะห์ข้อมูลในลักษณะต่างๆ การนำข้อมูลไปสร้างเป็นกราฟและแผนภูมิต่างๆ เพื่อใช้ตัดสินใจและพยากรณ์ในทางการเกษตร การประยุกต์ข้อมูลที่จัดเก็บเพื่อเอาไปใช้งานจริงในทางเกษตร และงานด้านอื่นๆ
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - generic [ref=e93]: 
+            - strong [ref=e94]: "หน่วยกิต:"
+            - text: "9"
+          - listitem [ref=e95]:
+            - generic [ref=e96]: 
+            - strong [ref=e97]: "เริ่ม:"
+            - text: 10/09/2025
+          - listitem [ref=e98]:
+            - generic [ref=e99]: 
+            - strong [ref=e100]: "สิ้นสุด:"
+            - text: 12/09/2025
+        - paragraph [ref=e101]:
+          - generic [ref=e102]: 
+          - text: 4,000.00 บาท
+        - generic [ref=e103]:
+          - link " รายละเอียด" [ref=e104] [cursor=pointer]:
+            - /url: module_detail.php?id=29
+            - generic [ref=e105] [cursor=pointer]: 
+            - text: รายละเอียด
+          - link " เพิ่มกลุ่มวิชา" [ref=e106] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e107] [cursor=pointer]: 
+            - text: เพิ่มกลุ่มวิชา
+    - heading "รายวิชาเรียนทั้งหมด" [level=2] [ref=e108]
+    - generic [ref=e109]:
+      - generic [ref=e111]:
+        - img "ระบบฐานข้อมูลขั้นสูง" [ref=e112]
+        - generic [ref=e113]:
+          - heading "ระบบฐานข้อมูลขั้นสูง" [level=5] [ref=e114]
+          - paragraph [ref=e115]: Advanced Database
+          - paragraph [ref=e116]:
+            - generic [ref=e117]: 
+            - strong [ref=e118]: "อาจารย์ผู้สอน:"
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - generic [ref=e121]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e122]:
+            - paragraph [ref=e123]:
+              - generic [ref=e124]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e125]:
+              - link " รายละเอียด" [ref=e126] [cursor=pointer]:
+                - /url: course_detail.php?id=75
+                - generic [ref=e127] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e131]:
+        - img "อินเทอร์เน็ตทุกสรรพสิ่ง" [ref=e132]
+        - generic [ref=e133]:
+          - heading "อินเทอร์เน็ตทุกสรรพสิ่ง" [level=5] [ref=e134]
+          - paragraph [ref=e135]: Internet of things
+          - paragraph [ref=e136]:
+            - generic [ref=e137]: 
+            - strong [ref=e138]: "อาจารย์ผู้สอน:"
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - generic [ref=e141]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e142]:
+            - paragraph [ref=e143]:
+              - generic [ref=e144]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e145]:
+              - link " รายละเอียด" [ref=e146] [cursor=pointer]:
+                - /url: course_detail.php?id=74
+                - generic [ref=e147] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e151]:
+        - img "การทำนายแบบเกษตรแม่นยำ" [ref=e152]
+        - generic [ref=e153]:
+          - heading "การทำนายแบบเกษตรแม่นยำ" [level=5] [ref=e154]
+          - paragraph [ref=e155]: Forecasting in Precision Agriculture
+          - paragraph [ref=e156]:
+            - generic [ref=e157]: 
+            - strong [ref=e158]: "อาจารย์ผู้สอน:"
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - generic [ref=e161]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e162]:
+            - paragraph [ref=e163]:
+              - generic [ref=e164]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e165]:
+              - link " รายละเอียด" [ref=e166] [cursor=pointer]:
+                - /url: course_detail.php?id=73
+                - generic [ref=e167] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e168] [cursor=pointer]:
+                - generic [ref=e169] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e171]:
+        - img "การทำเหมืองข้อมูล" [ref=e172]
+        - generic [ref=e173]:
+          - heading "การทำเหมืองข้อมูล" [level=5] [ref=e174]
+          - paragraph [ref=e175]: Data Mining
+          - paragraph [ref=e176]:
+            - generic [ref=e177]: 
+            - strong [ref=e178]: "อาจารย์ผู้สอน:"
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - generic [ref=e181]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e182]:
+            - paragraph [ref=e183]:
+              - generic [ref=e184]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e185]:
+              - link " รายละเอียด" [ref=e186] [cursor=pointer]:
+                - /url: course_detail.php?id=72
+                - generic [ref=e187] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e191]:
+        - img "การเขียนโปรแกรมบนอินเทอร์เน็ต" [ref=e192]
+        - generic [ref=e193]:
+          - heading "การเขียนโปรแกรมบนอินเทอร์เน็ต" [level=5] [ref=e194]
+          - paragraph [ref=e195]: Internet Programming
+          - paragraph [ref=e196]:
+            - generic [ref=e197]: 
+            - strong [ref=e198]: "อาจารย์ผู้สอน:"
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - generic [ref=e201]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e202]:
+            - paragraph [ref=e203]:
+              - generic [ref=e204]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e205]:
+              - link " รายละเอียด" [ref=e206] [cursor=pointer]:
+                - /url: course_detail.php?id=71
+                - generic [ref=e207] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e211]:
+        - img "การวิเคราะห์และการออกแบบระบบ" [ref=e212]
+        - generic [ref=e213]:
+          - heading "การวิเคราะห์และการออกแบบระบบ" [level=5] [ref=e214]
+          - paragraph [ref=e215]: System Analysis and Design
+          - paragraph [ref=e216]:
+            - generic [ref=e217]: 
+            - strong [ref=e218]: "อาจารย์ผู้สอน:"
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - generic [ref=e221]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e222]:
+            - paragraph [ref=e223]:
+              - generic [ref=e224]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e225]:
+              - link " รายละเอียด" [ref=e226] [cursor=pointer]:
+                - /url: course_detail.php?id=70
+                - generic [ref=e227] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e228] [cursor=pointer]:
+                - generic [ref=e229] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e231]:
+        - img "การเขียนโปรแกรมเชิงวัตถุ" [ref=e232]
+        - generic [ref=e233]:
+          - heading "การเขียนโปรแกรมเชิงวัตถุ" [level=5] [ref=e234]
+          - paragraph [ref=e235]: Object Oriented Programming
+          - paragraph [ref=e236]:
+            - generic [ref=e237]: 
+            - strong [ref=e238]: "อาจารย์ผู้สอน:"
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - generic [ref=e241]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e242]:
+            - paragraph [ref=e243]:
+              - generic [ref=e244]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e245]:
+              - link " รายละเอียด" [ref=e246] [cursor=pointer]:
+                - /url: course_detail.php?id=69
+                - generic [ref=e247] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e248] [cursor=pointer]:
+                - generic [ref=e249] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e251]:
+        - img "ปัญญาประดิษฐ์" [ref=e252]
+        - generic [ref=e253]:
+          - heading "ปัญญาประดิษฐ์" [level=5] [ref=e254]
+          - paragraph [ref=e255]: Artificial Intelligence
+          - paragraph [ref=e256]:
+            - generic [ref=e257]: 
+            - strong [ref=e258]: "อาจารย์ผู้สอน:"
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - generic [ref=e261]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e262]:
+            - paragraph [ref=e263]:
+              - generic [ref=e264]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e265]:
+              - link " รายละเอียด" [ref=e266] [cursor=pointer]:
+                - /url: course_detail.php?id=67
+                - generic [ref=e267] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e268] [cursor=pointer]:
+                - generic [ref=e269] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e271]:
+        - img "ระบบฐานข้อมูล" [ref=e272]
+        - generic [ref=e273]:
+          - heading "ระบบฐานข้อมูล" [level=5] [ref=e274]
+          - paragraph [ref=e275]: Database System
+          - paragraph [ref=e276]:
+            - generic [ref=e277]: 
+            - strong [ref=e278]: "อาจารย์ผู้สอน:"
+          - list [ref=e279]:
+            - listitem [ref=e280]:
+              - generic [ref=e281]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e282]:
+            - paragraph [ref=e283]:
+              - generic [ref=e284]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e285]:
+              - link " รายละเอียด" [ref=e286] [cursor=pointer]:
+                - /url: course_detail.php?id=66
+                - generic [ref=e287] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e288] [cursor=pointer]:
+                - generic [ref=e289] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+      - generic [ref=e291]:
+        - img "วิทยาการคอมพิวเตอร์พื้นฐาน" [ref=e292]
+        - generic [ref=e293]:
+          - heading "วิทยาการคอมพิวเตอร์พื้นฐาน" [level=5] [ref=e294]
+          - paragraph [ref=e295]: Fundamental of Computer Science
+          - paragraph [ref=e296]:
+            - generic [ref=e297]: 
+            - strong [ref=e298]: "อาจารย์ผู้สอน:"
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - generic [ref=e301]: 
+              - text: อาจารย์ ดร. อัญวีณ์ ไชยวชิระ (เทคโนโลยีคอมพิวเตอร์)
+          - generic [ref=e302]:
+            - paragraph [ref=e303]:
+              - generic [ref=e304]: 
+              - text: 1,500.00 บาท
+            - generic [ref=e305]:
+              - link " รายละเอียด" [ref=e306] [cursor=pointer]:
+                - /url: course_detail.php?id=64
+                - generic [ref=e307] [cursor=pointer]: 
+                - text: รายละเอียด
+              - button " เพิ่มรายวิชา" [ref=e308] [cursor=pointer]:
+                - generic [ref=e309] [cursor=pointer]: 
+                - text: เพิ่มรายวิชา
+  - dialog [active] [ref=e310]:
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - heading " วิธีการใช้งาน" [level=5] [ref=e313]:
+          - generic [ref=e314]: 
+          - text: วิธีการใช้งาน
+        - button [ref=e315] [cursor=pointer]
+      - generic [ref=e316]:
+        - list [ref=e317]:
+          - listitem [ref=e318]: 📚 เลือกกลุ่มวิชาหรือรายวิชาที่ต้องการ
+          - listitem [ref=e319]: 🛒 ตรวจสอบรายการในตะกร้า
+          - listitem [ref=e320]: 💳 กดปุ่ม "ชำระเงิน" จะมี QR Code ให้สแกน
+          - listitem [ref=e321]:
+            - text: 🏦 โอนเข้าบัญชี
+            - strong [ref=e322]: กรุงไทย 310-0-80829-0
+            - text: "ชื่อบัญชี: มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน วิทยาเขตสุรินทร์"
+          - listitem [ref=e323]: 📑 อัปโหลดหลักฐานการโอนเพื่อยืนยัน
+        - paragraph [ref=e324]: ⚠️ กรุณาส่งหลักฐานการโอนเพื่อยืนยัน
+      - button "ปิด" [ref=e326] [cursor=pointer]
+  - generic [ref=e327]: 
+```
